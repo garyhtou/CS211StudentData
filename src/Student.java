@@ -24,6 +24,8 @@ public class Student {
 
         this.totalScorePercentage = totalScorePercentage;
         this.totalScoreLetterGrade = totalScoreLetterGrade;
+
+        allStudents.add(this);
     }
 
     public String getFirstName() {
