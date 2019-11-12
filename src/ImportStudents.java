@@ -1,3 +1,4 @@
+
 import java.io.*;
 
 public class ImportStudents {
@@ -7,7 +8,7 @@ public class ImportStudents {
         try (BufferedReader reader = new BufferedReader(new FileReader(file))) {
             String row;
             while ((row = reader.readLine()) != null) {
-                String[] data = row.split(",");
+                String[] data = row.split(" ");
 
                 String firstName = data[1];
                 String lastName = data[0];
@@ -19,8 +20,8 @@ public class ImportStudents {
                 int languageArtsScore = Integer.parseInt(data[6]);
                 int computerScienceScore = Integer.parseInt(data[7]);
 
-                float totalScorePercentage = Float.parseFloat(data[8]);
-                char totalScoreLetterGrade = data[8].toCharArray()[0];
+                int totalScorePercentage = (int)Float.parseFloat(data[8]);
+                char totalScoreLetterGrade = data[9].charAt(0);
 
                 new Student(firstName, lastName, SID, mathScore, scienceScore, socialStudiesScore, languageArtsScore, computerScienceScore, totalScorePercentage, totalScoreLetterGrade);
             }
@@ -29,3 +30,4 @@ public class ImportStudents {
         }
     }
 }
+

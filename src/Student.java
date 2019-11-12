@@ -1,16 +1,17 @@
+
 import java.util.ArrayList;
 
 public class Student {
-    public ArrayList<Student> allStudents = new ArrayList<Student>();
+    public static ArrayList<Student> allStudents = new ArrayList<Student>();
 
     private String firstName;
     private String lastName;
     private int SID;
     private int[] classScores;
-    private float totalScorePercentage;
+    private int totalScorePercentage;
     private char totalScoreLetterGrade;
 
-    public Student(String firstName, String lastName, int SID, int mathScore, int scienceScore, int socialStudiesScore, int languageArtsScore, int computerScienceScore, float totalScorePercentage, char totalScoreLetterGrade){
+    public Student(String firstName, String lastName, int SID, int mathScore, int scienceScore, int socialStudiesScore, int languageArtsScore, int computerScienceScore, int totalScorePercentage, char totalScoreLetterGrade){
         this.firstName = firstName;
         this.lastName = lastName;
         this.SID = SID;
@@ -28,6 +29,12 @@ public class Student {
         allStudents.add(this);
     }
 
+    public ArrayList<Student> getStudents() {
+    	return allStudents;
+    }
+
+    
+    //getter methods for all of the student data points
     public String getFirstName() {
         return this.firstName;
     }
@@ -60,11 +67,24 @@ public class Student {
         return this.classScores[4];
     }
 
-    public float getTotalScorePercentage(){
+    public int getTotalScorePercentage(){
         return this.totalScorePercentage;
     }
 
     public char getTotalScoreLetterGrade() {
         return totalScoreLetterGrade;
     }
+    
+    public String toString() {
+    	String student = this.lastName + ", " + this.firstName + ", " + this.SID + ", ";
+    	for(int s: classScores)
+    	{
+    		student += (s + ", ");
+    	}
+    	
+    	student += (this.totalScorePercentage + "%, " + this.totalScoreLetterGrade);
+    	
+    	return student;
+    }
+    
 }

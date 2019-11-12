@@ -1,0 +1,120 @@
+Sorted by first name:
+Adams Ava 789321 91 93 100 88 92 A
+Belvins Bartley 344689 81 91 34 30 50 F
+Fredrickson Cody 567121 95 30 20 99 75 C
+Hnatyshyn Danylo 12567 95 98 93 100 96 A
+Bradley Evans 895231 59 95 99 100 82 B
+Tou Gary 178394 99 96 99 90 97 A
+Flounders James 14657 93 100 20 30 27 F
+Abdull Johnny 453212 76 34 23 97 70 C
+Goodwin Munchkin 231465 80 80 90 80 86 B
+Feissinger Quentin 123456 92 91 91 90 92 A
+
+Sorted by last name:
+Abdull Johnny 453212 76 34 23 97 70 C
+Adams Ava 789321 91 93 100 88 92 A
+Belvins Bartley 344689 81 91 34 30 50 F
+Bradley Evans 895231 59 95 99 100 82 B
+Feissinger Quentin 123456 92 91 91 90 92 A
+Flounders James 14657 93 100 20 30 27 F
+Fredrickson Cody 567121 95 30 20 99 75 C
+Goodwin Munchkin 231465 80 80 90 80 86 B
+Hnatyshyn Danylo 12567 95 98 93 100 96 A
+Tou Gary 178394 99 96 99 90 97 A
+
+Sorted by SID:
+Hnatyshyn Danylo 12567 95 98 93 100 96 A
+Flounders James 14657 93 100 20 30 27 F
+Feissinger Quentin 123456 92 91 91 90 92 A
+Tou Gary 178394 99 96 99 90 97 A
+Goodwin Munchkin 231465 80 80 90 80 86 B
+Belvins Bartley 344689 81 91 34 30 50 F
+Abdull Johnny 453212 76 34 23 97 70 C
+Fredrickson Cody 567121 95 30 20 99 75 C
+Adams Ava 789321 91 93 100 88 92 A
+Bradley Evans 895231 59 95 99 100 82 B
+
+Sorted by math score:
+Tou Gary 178394 99 96 99 90 97 A
+Hnatyshyn Danylo 12567 95 98 93 100 96 A
+Fredrickson Cody 567121 95 30 20 99 75 C
+Flounders James 14657 93 100 20 30 27 F
+Feissinger Quentin 123456 92 91 91 90 92 A
+Adams Ava 789321 91 93 100 88 92 A
+Belvins Bartley 344689 81 91 34 30 50 F
+Goodwin Munchkin 231465 80 80 90 80 86 B
+Abdull Johnny 453212 76 34 23 97 70 C
+Bradley Evans 895231 59 95 99 100 82 B
+
+Sorted by science score:
+Hnatyshyn Danylo 12567 95 98 93 100 96 A
+Tou Gary 178394 99 96 99 90 97 A
+Feissinger Quentin 123456 92 91 91 90 92 A
+Fredrickson Cody 567121 95 30 20 99 75 C
+Goodwin Munchkin 231465 80 80 90 80 86 B
+Adams Ava 789321 91 93 100 88 92 A
+Bradley Evans 895231 59 95 99 100 82 B
+Abdull Johnny 453212 76 34 23 97 70 C
+Belvins Bartley 344689 81 91 34 30 50 F
+Flounders James 14657 93 100 20 30 27 F
+
+Sorted by social studies score:
+Flounders James 14657 93 100 20 30 27 F
+Hnatyshyn Danylo 12567 95 98 93 100 96 A
+Tou Gary 178394 99 96 99 90 97 A
+Bradley Evans 895231 59 95 99 100 82 B
+Adams Ava 789321 91 93 100 88 92 A
+Feissinger Quentin 123456 92 91 91 90 92 A
+Belvins Bartley 344689 81 91 34 30 50 F
+Goodwin Munchkin 231465 80 80 90 80 86 B
+Abdull Johnny 453212 76 34 23 97 70 C
+Fredrickson Cody 567121 95 30 20 99 75 C
+
+Sorted by language arts score:
+Adams Ava 789321 91 93 100 88 92 A
+Tou Gary 178394 99 96 99 90 97 A
+Bradley Evans 895231 59 95 99 100 82 B
+Hnatyshyn Danylo 12567 95 98 93 100 96 A
+Feissinger Quentin 123456 92 91 91 90 92 A
+Goodwin Munchkin 231465 80 80 90 80 86 B
+Belvins Bartley 344689 81 91 34 30 50 F
+Abdull Johnny 453212 76 34 23 97 70 C
+Flounders James 14657 93 100 20 30 27 F
+Fredrickson Cody 567121 95 30 20 99 75 C
+
+Sorted by computer science score:
+Bradley Evans 895231 59 95 99 100 82 B
+Hnatyshyn Danylo 12567 95 98 93 100 96 A
+Fredrickson Cody 567121 95 30 20 99 75 C
+Abdull Johnny 453212 76 34 23 97 70 C
+Tou Gary 178394 99 96 99 90 97 A
+Feissinger Quentin 123456 92 91 91 90 92 A
+Adams Ava 789321 91 93 100 88 92 A
+Goodwin Munchkin 231465 80 80 90 80 86 B
+Belvins Bartley 344689 81 91 34 30 50 F
+Flounders James 14657 93 100 20 30 27 F
+
+Sorted by total grade percentage:
+Tou Gary 178394 99 96 99 90 97 A
+Hnatyshyn Danylo 12567 95 98 93 100 96 A
+Feissinger Quentin 123456 92 91 91 90 92 A
+Adams Ava 789321 91 93 100 88 92 A
+Goodwin Munchkin 231465 80 80 90 80 86 B
+Bradley Evans 895231 59 95 99 100 82 B
+Fredrickson Cody 567121 95 30 20 99 75 C
+Abdull Johnny 453212 76 34 23 97 70 C
+Belvins Bartley 344689 81 91 34 30 50 F
+Flounders James 14657 93 100 20 30 27 F
+
+Sorted by total letter grade:
+Tou Gary 178394 99 96 99 90 97 A
+Hnatyshyn Danylo 12567 95 98 93 100 96 A
+Feissinger Quentin 123456 92 91 91 90 92 A
+Adams Ava 789321 91 93 100 88 92 A
+Goodwin Munchkin 231465 80 80 90 80 86 B
+Bradley Evans 895231 59 95 99 100 82 B
+Fredrickson Cody 567121 95 30 20 99 75 C
+Abdull Johnny 453212 76 34 23 97 70 C
+Belvins Bartley 344689 81 91 34 30 50 F
+Flounders James 14657 93 100 20 30 27 F
+
