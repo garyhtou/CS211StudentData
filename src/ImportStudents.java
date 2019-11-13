@@ -1,10 +1,16 @@
-
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileReader;
+import java.io.IOException;
 
 public class ImportStudents {
 
-    public static void add(File file){
-
+    /**
+     * Add students from a file of student data.
+     *
+     * @param file
+     */
+    public static void add(File file) {
         try (BufferedReader reader = new BufferedReader(new FileReader(file))) {
             String row;
             while ((row = reader.readLine()) != null) {
@@ -20,7 +26,7 @@ public class ImportStudents {
                 int languageArtsScore = Integer.parseInt(data[6]);
                 int computerScienceScore = Integer.parseInt(data[7]);
 
-                int totalScorePercentage = (int)Float.parseFloat(data[8]);
+                int totalScorePercentage = (int) Float.parseFloat(data[8]);
                 char totalScoreLetterGrade = data[9].charAt(0);
 
                 new Student(firstName, lastName, SID, mathScore, scienceScore, socialStudiesScore, languageArtsScore, computerScienceScore, totalScorePercentage, totalScoreLetterGrade);
